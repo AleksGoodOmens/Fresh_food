@@ -427,7 +427,7 @@ body.popup-show::after {
 
 #map {
   width: 100%;
-  padding-bottom: 100%;
+  padding-bottom: 80%;
 }
 
 .header {
@@ -681,16 +681,13 @@ body.popup-show::after {
 }
 
 .home .__container2 {
-  background: linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%, #1a1a1a 100%), linear-gradient(90deg, rgba(26, 26, 26, 0.0001) 75%, #1a1a1a 100%), linear-gradient(-90deg, rgba(26, 26, 26, 0.0001) 75%, #1a1a1a 100%), linear-gradient(0deg, rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url(../img/Home/1.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%, #1a1a1a 100%), linear-gradient(90deg, rgba(26, 26, 26, 0.0001) 75%, #1a1a1a 100%), linear-gradient(-90deg, rgba(26, 26, 26, 0.0001) 75%, #1a1a1a 100%), linear-gradient(0deg, rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url("../img/Home/1.jpg") top no-repeat;
   text-align: center;
   padding: 0;
 }
-@media (min-width: 47.99875em) {
+@media (min-width: 61.99875em) {
   .home .__container2 {
-    height: 1080px;
-    min-height: 100vh;
+    height: 100vh;
   }
 }
 @media (max-width: 61.99875em) {
